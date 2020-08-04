@@ -27,7 +27,7 @@ class Owner
   end
 
   def cats
-    Cat.all == name
+    if Cat.all == name
 
     end
   end
