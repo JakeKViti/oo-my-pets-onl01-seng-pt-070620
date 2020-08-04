@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.all
-    @name
+    @@all
   end
 
   def self.count
