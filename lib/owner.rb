@@ -60,7 +60,7 @@ class Owner
  end
 
  def list_pets
-
+ return "I have"
  end
 
 end
