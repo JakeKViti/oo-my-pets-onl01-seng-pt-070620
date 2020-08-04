@@ -37,7 +37,7 @@ class Owner
  def buy_cat(cat)
    Cat.all.select {|cats|
      if cats.cat == cat
-       cat.owner = self
+       cat.owner = @name
      }
  end
 
