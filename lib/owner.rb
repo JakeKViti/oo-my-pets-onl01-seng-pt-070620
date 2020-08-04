@@ -1,8 +1,6 @@
 class Owner
-  attr_accessor :name, :species
 
-
-  def initialize(name)
+  def initialize()
 
   end
 
