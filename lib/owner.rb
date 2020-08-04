@@ -35,7 +35,7 @@ class Owner
   end
 
  def buy_cat(cat)
-   return 3
+
  end
 
 end
