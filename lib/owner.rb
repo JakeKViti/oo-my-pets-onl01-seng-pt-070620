@@ -27,12 +27,12 @@ class Owner
   end
 
   def cats
-    Cat.all
-    
+    Cat.all.owner
+
   end
 
   def dogs
     Dog.all
-    
+
   end
 end
