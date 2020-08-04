@@ -12,6 +12,6 @@ def initialize(name, owner)
 end
 
   def self.all
-    return 3
+    @@all
   end
 end
