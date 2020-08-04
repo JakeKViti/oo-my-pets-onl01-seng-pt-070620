@@ -39,7 +39,7 @@ class Owner
  def buy_cat(cat)
    binding.pry
    cat = Cat.new(cat, @name)
-   cat
+   Cat.all
  end
 
 end
