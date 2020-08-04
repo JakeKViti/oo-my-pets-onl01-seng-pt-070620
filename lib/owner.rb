@@ -38,6 +38,7 @@ class Owner
    Cat.all.select {|cats|
      if cats.cat == cat
        cat.owner = @name
+     end
      }
  end
 
