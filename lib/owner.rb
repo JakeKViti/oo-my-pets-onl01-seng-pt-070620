@@ -28,7 +28,8 @@ class Owner
 
   def cats
     Cat.all.each do |cat|
-      puts cat
-    end
+      if Cat.self == Owner.self
+        return cat
+      end
   end
 end
