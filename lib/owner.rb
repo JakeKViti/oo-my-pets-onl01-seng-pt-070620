@@ -27,8 +27,12 @@ class Owner
   end
 
   def cats
-    if Cat.all == name
-      puts cat
-    end
+    Cat.all
+    
+  end
+
+  def dogs
+    Dog.all
+    
   end
 end
