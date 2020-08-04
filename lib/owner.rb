@@ -2,7 +2,7 @@ class Owner
     attr_accessor :name, :species
 
   def initialize(name)
-    @name = name
+    Name = name
     @species = "human"
   end
 
