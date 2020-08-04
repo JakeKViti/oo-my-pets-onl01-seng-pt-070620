@@ -31,5 +31,6 @@ class Owner
       if Cat.self == Owner.self
         return cat
       end
+    end
   end
 end
