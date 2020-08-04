@@ -27,6 +27,6 @@ class Owner
   end
 
   def cats
-    Cat.all.each do {|cat| puts cat }
+    Cat.all.each do {|cat|  cat }
   end
 end
